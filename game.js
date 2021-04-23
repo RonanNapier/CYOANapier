@@ -71,7 +71,7 @@ function s1(){
 	availableButtons = ["button-left", "button-forward", "button-back", "button-right"];
 	enableButton(availableButtons);
 	
-	writeText("You are standing in the main lobby of the NIS headquarters! In front of you there is a receptionist with the name tag Tiana. To your left is a public bathroom. To your right is staff only labelled door. Lastly, also obviously, the door behind you is where you entered from.");
+	writeText("You are standing in the main lobby of the NIS headquarters! In front of you there is a receptionist with the name tag Tiana. To your left is a public bathroom. To your right is the staff only labelled door. Lastly, also obviously, the door behind you is where you entered from.");
 	document.getElementById("button-left").addEventListener("click", function(){s3();});
 	document.getElementById("button-forward").addEventListener("click", function(){s2();});
 	document.getElementById("button-back").addEventListener("click", function(){document.getElementById("gameText").style.color = "red"; writeText("YOU GOT THE SCARED ENDING: Really Grey! I knew we should have hired someone else. Go back to your safe comfy home. Scaredy Cat!"); disableButton(availableButtons);}, {once: true});
