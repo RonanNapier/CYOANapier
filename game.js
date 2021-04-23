@@ -151,7 +151,7 @@ function s4(){
 		setTimeout(function(){s5();}, 15000);
 	}
 	else if (s4Fail == false){
-		writeText("You enter the the staff door and luckily no one sees you. There is three different uniforms hanging up on a clothes rack. There is also a vent beside the clothes rack that looks like you could crawl through it... Do you want to look at the clothes rack or the vent?");
+		writeText("You enter the staff door and luckily no one sees you. There is three different uniforms hanging up on a clothes rack. There is also a vent beside the clothes rack that looks like you could crawl through it... Do you want to look at the clothes rack or the vent?");
 		disableButton(availableButtons);
 		availableButtons = ["button-rack", "button-vent", "button-lobby"];
 		enableButton(availableButtons);
