@@ -268,6 +268,16 @@ function s52(){
 		writeText("YOU GOT THE UNPREPARED ENDING!: \"Hey! You aren't meant to be here! How did you get in!? SECURITY!!\" Screams the man in the meeting room. Looks like you are about to be comfy in jail!");
 		disableButton(availableButtons);
 	}
+	else if(tvent == false && janitor == false){
+		writeText("\"Hey you must be the person I am meeting to discuss our new updated security measures, here take this keycard and go to my office and tell me what you think of the secret panel. Well thats if you can find it haha!!\" says the man. You reluctantly take the keycard and make your way back to the hall.");
+		disableButton(availableButtons);
+		availableButtons = ["button-hall"];
+		enableButton(availableButtons);
+		keycard = true;
+		aKO = true;
+		janitor = true;
+		document.getElementById("button-hall").addEventListener("click", function(){s51();});
+	}
 	
 }
 function s53(){
