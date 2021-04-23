@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<script src="game.js"></script>
+	</head>
+	<!-- Initialise the starting function -->
+	<body onload="initialise()">
+	
+	<header>
+		<div class ="header">
+		<img class="icon" src="GreyedOut.png">
+			<ul class ="pages">
+				<li><a href="Home.html"> Home </a></li>
+				<li><a class="current" href="Play.html"> Play </a></li>
+				<li><a href="About.html"> About </a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div class = "game">
+		<div class = "script"> <p id="gameText">Welcome Grey, your job is to take down the evil conglomerate known as NIS. Their main headquarter is situated in La Plas where they deploy their "security system" that governs our every day actions. As you know this system is a masquerade for citizens safety and instead allows the big brother to track every one of our movements. It's up to our revolution to bring the people their freedom. Once inside the main lobby, find a way to the main vault and then shut down the system! Unfortunately, the only intel we have is that this place is heavily guarded and what we are doing here is highly illegal! Go forth and bring the new age of freedom!</p>
+		</div>
+		<!--The reason for so many buttons is due to the fact I couldn't find a way to rename the buttons without affecting styling. 
+			Everywhere I looked, styling only affected standard buttons with no styling.
+			I'm sure if I found the correct resource I could have had this down to four buttons only. However this is not the case.
+			I am using javascript to display buttons when I need them and this prevents having them all clutter the page :)-->
+			
+		<!-- I also tried for days to get event handling working perfectly however no matter what soloution I implemented, I could not get removing event handling to work.
+		If I managed to get event handling done somehow, I probably could have kep the entire game down to four buttons. However this way was the only way I could implement it. -->
+		<div class = "choices">
+			<div class = "button-1" id ="button-left">
+			<button type ="button">Left</button>
+			</div>
+			<div class = "button-2" id ="button-forward">
+			<button type ="button">Forward</button>
+			</div>
+			<div class = "button-3" id ="button-back">
+			<button type ="button">Back</button>
+			</div>
+			<div class = "button-4" id ="button-right">
+			<button type ="button">Right</button>
+			</div>
+			<div class = "button-5" id ="button-start">
+			<button type ="button">Start</button>
+			</div>
+			<div class = "button-6" id ="button-yes">
+			<button type ="button">Yes</button>
+			</div>
+			<div class = "button-7" id ="button-no">
+			<button type ="button">No</button>
+			</div>
+			<div class = "button-8" id ="button-jack">
+			<button type ="button">Jack</button>
+			</div>
+			<div class = "button-9" id ="button-steve">
+			<button type ="button">Heather</button>
+			</div>
+			<div class = "button-10" id ="button-george">
+			<button type ="button">George</button>
+			</div>
+			<div class = "button-11" id ="button-gregor">
+			<button type ="button">Gregor</button>
+			</div>
+			<div class = "button-12" id ="button-inspect">
+			<button type ="button">Inspect Glint</button>
+			</div>
+			<div class = "button-13" id ="button-leave">
+			<button type ="button">Leave</button>
+			</div>
+			<div class = "button-14" id ="button-rack">
+			<button type ="button">Clothes Rack</button>
+			</div>
+			<div class = "button-15" id ="button-vent">
+			<button type ="button">Vent</button>
+			</div>
+			<div class = "button-16" id ="button-lobby">
+			<button type ="button">Leave Room</button>
+			</div>
+			<div class = "button-17" id ="button-lvent">
+			<button type ="button">Leave Vent</button>
+			</div>
+			<div class = "button-18" id ="button-janitor">
+			<button type ="button">Janitor</button>
+			</div>
+			<div class = "button-19" id ="button-builder">
+			<button type ="button">Builder</button>
+			</div>
+			<div class = "button-20" id ="button-doctor">
+			<button type ="button">Doctor</button>
+			</div>
+			<div class = "button-21" id ="button-meeting">
+			<button type ="button">Meeting Room</button>
+			</div>
+			<div class = "button-22" id ="button-construction">
+			<button type ="button">Construction</button>
+			</div>
+			<div class = "button-23" id ="button-office">
+			<button type ="button">Office</button>
+			</div>
+			<div class = "button-24" id ="button-hall">
+			<button type ="button">Hall</button>
+			</div>
+			<div class = "button-25" id ="button-trash">
+			<button type ="button">Take Trash</button>
+			</div>
+			<div class = "button-26" id ="button-KO">
+			<button type ="button">Knock Him Out</button>
+			</div>
+			<div class = "button-27" id ="button-ctrash">
+			<button type ="button">Confirm Trash</button>
+			</div>
+			<div class = "button-28" id ="button-cKO">
+			<button type ="button">Confirm Knock Out</button>
+			</div>
+			<div class = "button-29" id ="button-swipe">
+			<button type ="button">Swipe Card</button>
+			</div>
+			<div class = "button-30" id ="button-picks">
+			<button type ="button">Ice Picks</button>
+			</div>
+			<div class = "button-31" id ="button-rope">
+			<button type ="button">Sturdy Rope</button>
+			</div>
+		</div>
+	
+	</div>
+	
+	
+	
+
+
+	</body>
+	
+</html>
