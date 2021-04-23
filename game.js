@@ -292,7 +292,7 @@ function s53(){
 }
 function s54(){
 	if (keycard == true){
-		writeText("As you look around the office, out of the corner of your eye, you spot a suspicious looking book... Pulling he book reveals a keycard lock. Do you want to try and use the keycard you have?");
+		writeText("As you look around the office, out of the corner of your eye, you spot a suspicious looking book... Pulling the book reveals a keycard lock. Do you want to try and use the keycard you have?");
 		disableButton(availableButtons);
 		availableButtons = ["button-swipe", "button-hall"];
 		enableButton(availableButtons);
